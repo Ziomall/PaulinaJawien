@@ -5,9 +5,16 @@ body {
 }
 .contact__list {
   display: flex;
-  width: calc((100% - 40px) / 4);
+  gap: 50px;
 }
 .contact__list-menu {
-  width: calc((100% - 40px) / 4);
   list-style: none;
+  
+}
+.contact__button{
+width: 250px;
+
+}
+.header__picture{
+  padding-bottom: 40px;
 }
