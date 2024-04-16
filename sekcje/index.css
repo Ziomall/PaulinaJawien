@@ -1,8 +1,9 @@
 .contact__list {
     display: flex;
+    justify-content: center;
     gap: 40px;
-    margin-left: 105px;
-    margin-right: 105px;
+    margin-left: 80px;
+    margin-right: 115px;
   }
   .contact__list-menu {
     list-style: none;

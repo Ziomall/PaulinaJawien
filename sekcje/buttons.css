@@ -1,11 +1,10 @@
 .contact__button{
     font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
     font-weight: 700;
     width: 250px;
     height: 50px;
-  
   }
-
   .contact {
   display: flex;
   justify-content: center;
