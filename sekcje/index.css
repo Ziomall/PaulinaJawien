@@ -10,4 +10,16 @@
   .header__picture{
     padding-bottom: 40px;
   }
+  .section__logo{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
   
