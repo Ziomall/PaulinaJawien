@@ -13,3 +13,7 @@
   flex-wrap: wrap;
   padding: 40px 0;
 }
+.contact__button:hover{
+  background: crimson;
+  box-shadow: 0 0 28px 10px crimson;
+}
