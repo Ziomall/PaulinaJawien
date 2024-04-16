@@ -1,1 +1,13 @@
-
+.contact__list {
+    display: flex;
+    gap: 40px;
+    margin-left: 105px;
+    margin-right: 105px;
+  }
+  .contact__list-menu {
+    list-style: none;
+  }
+  .header__picture{
+    padding-bottom: 40px;
+  }
+  

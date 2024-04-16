@@ -1,20 +1,9 @@
 @import url(./index.css);
+@import url(./buttons.css);
 
 body {
   width: 1440px;
-}
-.contact__list {
-  display: flex;
-  gap: 50px;
-}
-.contact__list-menu {
-  list-style: none;
-  
-}
-.contact__button{
-width: 250px;
-
-}
-.header__picture{
-  padding-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
