@@ -1,21 +1,41 @@
-.contact__button-a .contact__button-b .contact__button-c .contact__button-d {
+.contact__button {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   width: 250px;
-  height: 50px;
 }
 .contact {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 40px 0;
+  padding: 0 40px;
 }
-.contact__button-a
-  .contact__button-b
-  .contact__button-c
-  .contact__button-d:hover {
-  background: crimson;
-  box-shadow: 0 0 28px 10px crimson;
+.contact__link {
+  gap: 40px;
+  position: relative;
+}
+.contact__link:hover {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0 28px 10px #f685ca;
+  border-radius: 40px;
+}
+.contact__link::after {
+  content: "";
+  position: absolute;
+  top: -5;
+  left: -5;
+  right: -5;
+  bottom: -5;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.contact__link:active {
+  box-shadow: 0 0 10px 5px #f685ca;
+  opacity: 1;
 }

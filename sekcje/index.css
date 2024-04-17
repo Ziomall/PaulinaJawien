@@ -1,26 +1,24 @@
 .contact__list {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-left: 80px;
-    margin-right: 115px;
-  }
-  .contact__list-menu {
-    list-style: none;
-  }
-  .header__picture{
-    padding-bottom: 40px;
-  }
-  .section__logo{
-    width: 50%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
-  .logo{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
-  
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-left: 140px;
+  margin-right: 60px;
+}
+.contact__list-menu {
+  list-style: none;
+}
+.header__picture {
+  padding-bottom: 40px;
+}
+.section__logo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 90px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
