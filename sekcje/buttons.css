@@ -1,18 +1,21 @@
-.contact__button{
-    font-family: "Roboto", sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    width: 250px;
-    height: 50px;
-  }
-  .contact {
+.contact__button-a .contact__button-b .contact__button-c .contact__button-d {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 250px;
+  height: 50px;
+}
+.contact {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   padding: 40px 0;
 }
-.contact__button:hover{
+.contact__button-a
+  .contact__button-b
+  .contact__button-c
+  .contact__button-d:hover {
   background: crimson;
   box-shadow: 0 0 28px 10px crimson;
 }
