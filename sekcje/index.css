@@ -11,14 +11,26 @@
 .header__picture {
   padding-bottom: 40px;
 }
-.section__logo {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-left: 90px;
-}
 .logo {
-  display: flex;
-  justify-content: center;
-  text-align: center;
+}
+.box__svg-facebook {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  left: 20px;
+  top: 650px;
+  z-index: 1;
+}
+.box__svg-instagram {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  left: 1180px;
+  top: -710px;
+  z-index: 1;
+}
+.section__logo {
+  position: relative;
+  width: 1040px;
+  left: 150px;
 }
