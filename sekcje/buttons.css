@@ -18,11 +18,14 @@
   filter: drop-shadow(0px 4px 4px #f685ca);
 }
 .svg__images {
-  filter: drop-shadow(0px 4px 4px #f685ca);
+  filter: drop-shadow(10px 4px 14px #f685ca);
 }
 .box__svg-facebook {
   border-radius: 50%;
 }
 .box__svg-instagram {
   border-radius: 50%;
+}
+.svg_images:hover {
+  filter: drop-shadow(0px 4px 4px #f685ca);
 }
